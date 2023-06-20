@@ -21,9 +21,77 @@
       rel="stylesheet"
     />
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson Pro"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Monserrat"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Devchallenges</title>
   </head>
   <body>
-    <main></main>
+    <header>
+      <nav class="navbar">
+        <p class="logo">This interior</p>
+        <img src="./hamburger.svg" alt="Menu" class="menu-icon" />
+        <div class="menu-container hide">
+          <ul class="menu-list">
+            <li onclick="window.location.reload(true)">Home</li>
+            <li onclick="window.location.reload(true)">Collection</li>
+            <li onclick="window.location.reload(true)">About</li>
+            <li onclick="window.location.reload(true)">Contact</li>
+            <img
+              src="close-bold.svg"
+              alt="Close Icon"
+              class="close-icon hide"
+            />
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article class="site-desc">
+          <h1>Modern interior</h1>
+          <p class="description">
+            A full-Service residential &amp; commercial interior design and
+            staging company offering professional organizing &amp; eco-services.
+          </p>
+          <a href="#" class="read-more">
+            Read More
+            <img src="./right-arrow.svg" alt="Right Arrow" />
+          </a>
+        </article>
+        <aside class="design">
+          <img src="./photo1.png" alt="Design Image" class="design-image" />
+          <div class="designer-card">
+            <div class="designer-info">
+              <img src="./photo2.png" alt="Designer" class="designer-image" />
+              <div>
+                <h2>Aliza Webber</h2>
+                <p>Interior designer</p>
+              </div>
+            </div>
+            <p>Designed in 2020 by Aliza Webber</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <p>created by <u>mbravosarria</u> - DevChallenge.io</p>
+    </footer>
   </body>
+
+  <script src="main.js"></script>
 </html>
